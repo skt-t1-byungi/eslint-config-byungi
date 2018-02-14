@@ -2,12 +2,20 @@
   "name": "eslint-config-byungi",
   "version": "0.0.1",
   "author": {
-    "name": "skt-t1-byungi"
+    "name": "skt-t1-byungi",
+    "email": "tiniwz@gmail.com"
   },
   "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "files": [
+    "index.js"
+  ],
   "license": "MIT",
   "peerDependencies": {
-    "eslint": "^4.17.0"
+    "eslint": ">= 4"
   },
   "dependencies": {
     "eslint-config-standard": "^11.0.0-beta.0",
