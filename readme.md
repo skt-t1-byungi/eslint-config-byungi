@@ -12,10 +12,12 @@ Node or modern browser..
   "extends": "byungi"
 }
 ```
-
-for Old browser
+for old browser
 ```json
 {
   "extends": "byungi/old"
 }
 ```
+etc
+- `byungi/react`
+- `byungi/vue`
