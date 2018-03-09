@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-byungi",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": {
     "name": "skt-t1-byungi",
     "email": "tiniwz@gmail.com"
@@ -12,7 +12,9 @@
   ],
   "files": [
     "index.js",
-    "old.js"
+    "old.js",
+    "react.js",
+    "vue.js"
   ],
   "license": "MIT",
   "peerDependencies": {
