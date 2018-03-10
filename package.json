@@ -5,6 +5,10 @@
     "name": "skt-t1-byungi",
     "email": "tiniwz@gmail.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skt-t1-byungi/eslint-config-byungi.git"
+  },
   "main": "index.js",
   "keywords": [
     "eslint",
