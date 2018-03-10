@@ -9,6 +9,9 @@ module.exports = {
   },
   plugins: ["ava", "unicorn"],
   rules:{
+    "class-methods-use-this": "error",
+    "no-case-declarations": "error",
+    "require-await": "error",
     "ava/no-skip-test": "warn",
     "unicorn/catch-error-name": ["error", {"name": "err"}],
     "unicorn/explicit-length-check": "error",
