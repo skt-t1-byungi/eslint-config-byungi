@@ -11,6 +11,7 @@ module.exports = {
   rules:{
     "no-case-declarations": "error",
     "require-await": "error",
+    "ava/no-only-test": "off",
     "ava/no-skip-test": "off",
     "unicorn/catch-error-name": ["error", {"name": "err"}],
     "unicorn/explicit-length-check": "error",
