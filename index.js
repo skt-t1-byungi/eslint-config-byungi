@@ -9,6 +9,7 @@ module.exports = {
   },
   plugins: ["ava", "unicorn"],
   rules:{
+    "no-cond-assign": "off",
     "ava/no-skip-test": "warn",
     "unicorn/catch-error-name": ["error", {"name": "err"}],
     "unicorn/explicit-length-check": "error",
