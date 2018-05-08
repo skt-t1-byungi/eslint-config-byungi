@@ -10,7 +10,10 @@ module.exports = {
   plugins: ["ava", "unicorn"],
   rules:{
     "no-cond-assign": "off",
-    "ava/no-skip-test": "warn",
+    "no-case-declarations": "error",
+    "require-await": "error",
+    "ava/no-only-test": "off",
+    "ava/no-skip-test": "off",
     "unicorn/catch-error-name": ["error", {"name": "err"}],
     "unicorn/explicit-length-check": "error",
     "unicorn/no-array-instanceof": "error",
