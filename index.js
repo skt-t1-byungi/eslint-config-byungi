@@ -7,7 +7,7 @@ module.exports = {
     ecmaVersion: 8,
     sourceType: "module"
   },
-  plugins: ["ava", "unicorn"],
+  plugins: ["ava", "unicorn", "html"],
   rules:{
     "no-cond-assign": "off",
     "no-case-declarations": "error",
