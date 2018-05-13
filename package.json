@@ -15,10 +15,7 @@
     "eslint-config"
   ],
   "files": [
-    "index.js",
-    "old.js",
-    "react.js",
-    "vue.js"
+    "*.js"
   ],
   "license": "MIT",
   "peerDependencies": {
