@@ -2,6 +2,7 @@ module.exports = {
   extends: [
     "standard",
   ],
+  plugins: ["html"],
   parserOptions: {
     "ecmaVersion": 5,
     "sourceType": "script"
