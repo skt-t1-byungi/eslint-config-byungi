@@ -1,13 +1,13 @@
 module.exports = {
-  extends: [
-    "./react.js"
-  ],
-  settings: {
-    "react": {
-      "pragma": "h"
+    extends: [
+        "./react.js"
+    ],
+    settings: {
+        "react": {
+            "pragma": "h"
+        }
+    },
+    rules:{
+        "react/no-unknown-property": "off"
     }
-  },
-  rules:{
-    "react/no-unknown-property": "off"
-  }
 }
