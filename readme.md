@@ -20,4 +20,4 @@ for old browser
 ```
 etc
 - `byungi/react`
-- `byungi/vue`
+- `byungi/hyperapp`
