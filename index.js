@@ -1,6 +1,7 @@
 module.exports = {
+    "parser": "babel-eslint",
     extends: [
-        "standard", 
+        "standard",
         "plugin:ava/recommended"
     ],
     parserOptions: {
@@ -9,6 +10,7 @@ module.exports = {
     },
     plugins: ["ava", "unicorn", "html"],
     rules:{
+        "strict": 0,
         "indent": ["error", 4],
         "no-cond-assign": "off",
         "no-case-declarations": "error",

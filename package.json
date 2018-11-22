@@ -19,7 +19,7 @@
     ],
     "license": "MIT",
     "peerDependencies": {
-        "eslint": "^5.5.0"
+        "eslint": "^5.9.0"
     },
     "dependencies": {
         "babel-eslint": "^10.0.1",
