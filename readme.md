@@ -2,22 +2,24 @@
 
 ## Install
 ```sh
-yarn add -D eslint eslint-config-byungi
+yarn add --dev eslint eslint-config-byungi
 ```
 
 ## Usage
 Node or modern browser..
 ```json
 {
-  "extends": "byungi"
+    "extends": "byungi"
 }
 ```
-for old browser
+
+### Old browser(ES3)
 ```json
 {
-  "extends": "byungi/old"
+    "extends": "byungi/old"
 }
 ```
-etc
+
+## ETC subsets
 - `byungi/react`
 - `byungi/hyperapp`

@@ -14,6 +14,7 @@ module.exports = {
         "indent": ["error", 4],
         "no-cond-assign": "off",
         "no-case-declarations": "error",
+        "no-sequences": 0,
         "require-await": "error",
         "ava/no-only-test": "off",
         "ava/no-skip-test": "off",
