@@ -1,4 +1,12 @@
 # eslint-config-byungi
+> skt t1 Byungi's javascript lint rule collection.
+
+![npm](https://flat.badgen.net/npm/v/eslint-config-byungi)
+
+
+<p align="center">
+    <img src="./sktt1.png">
+</p>
 
 ## Install
 ```sh
@@ -6,14 +14,14 @@ yarn add --dev eslint eslint-config-byungi
 ```
 
 ## Usage
-.eslintrc
+`.eslintrc`
 ```json
 {
     "extends": "byungi"
 }
 ```
 
-### subsets
+### Subsets
 - `byungi/old`
 - `byungi/react`
 - `byungi/hyperapp`
