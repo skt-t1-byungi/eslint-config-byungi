@@ -1,7 +1,7 @@
 # eslint-config-byungi
 > skt t1 Byungi's javascript lint rule collection.
 
-![npm](https://flat.badgen.net/npm/v/eslint-config-byungi)
+[![npm](https://flat.badgen.net/npm/v/eslint-config-byungi)](https://npmjs.com/package/eslint-config-byungi)
 
 
 <p align="center">
