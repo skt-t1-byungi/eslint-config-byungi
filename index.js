@@ -10,19 +10,17 @@ module.exports = {
     },
     plugins: ["ava", "unicorn", "html"],
     rules:{
-        "strict": 0,
+        "strict": "off",
         "indent": ["error", 4],
         "no-cond-assign": "off",
         "no-case-declarations": "error",
-        "no-sequences": 0,
+        "no-sequences": "off",
         "require-await": "error",
         "ava/no-only-test": "off",
         "ava/no-skip-test": "off",
         "unicorn/explicit-length-check": "error",
-        "unicorn/no-array-instanceof": "error",
         "unicorn/throw-new-error": "error",
-        "unicorn/prefer-starts-ends-with": "error",
-        "unicorn/prefer-type-error": "error",
+        "unicorn/custom-error-definition ": "error",
         "unicorn/import-index": "error",
         "unicorn/error-message": "error"
     }
