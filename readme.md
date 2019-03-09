@@ -6,20 +6,14 @@ yarn add --dev eslint eslint-config-byungi
 ```
 
 ## Usage
-Node or modern browser..
+.eslintrc
 ```json
 {
     "extends": "byungi"
 }
 ```
 
-### Old browser(ES3)
-```json
-{
-    "extends": "byungi/old"
-}
-```
-
-## ETC subsets
+### subsets
+- `byungi/old`
 - `byungi/react`
 - `byungi/hyperapp`
