@@ -20,7 +20,7 @@ module.exports = {
         "ava/no-skip-test": "off",
         "unicorn/explicit-length-check": "error",
         "unicorn/throw-new-error": "error",
-        "unicorn/custom-error-definition ": "error",
+        "unicorn/custom-error-definition": "error",
         "unicorn/import-index": "error",
         "unicorn/error-message": "error"
     }
