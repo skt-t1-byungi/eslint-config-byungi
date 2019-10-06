@@ -9,6 +9,7 @@ module.exports = {
         "plugin:@typescript-eslint/recommended"
     ],
     rules: {
+        "unicorn/error-message": "off",
         "@typescript-eslint/array-type": ["error", {"default": "array-simple"}],
         "camelcase": "off",
         "@typescript-eslint/camelcase": ["error", { "properties": "never" }],
