@@ -26,3 +26,4 @@ yarn add --dev eslint eslint-config-byungi
 - `byungi/react`
 - `byungi/hyperapp`
 - `byungi/typescript`
+- `byungi/typescriptreact`

@@ -1,14 +1,14 @@
 module.exports = {
-    "parser": "@typescript-eslint/parser",
-    "plugins": [
+    parser: "@typescript-eslint/parser",
+    plugins: [
         "@typescript-eslint"
     ],
-    "extends": [
+    extends: [
         "./index.js",
         "plugin:@typescript-eslint/eslint-recommended",
         "plugin:@typescript-eslint/recommended"
     ],
-    "rules": {
+    rules: {
         "@typescript-eslint/array-type": ["error", {"default": "array-simple"}],
         "camelcase": "off",
         "@typescript-eslint/camelcase": ["error", { "properties": "never" }],
