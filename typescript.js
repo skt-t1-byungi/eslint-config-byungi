@@ -9,9 +9,9 @@ module.exports = {
         "plugin:@typescript-eslint/recommended"
     ],
     rules: {
+        "camelcase": "off",
         "unicorn/custom-error-definition": "off",
         "@typescript-eslint/array-type": ["error", {"default": "array-simple"}],
-        "camelcase": "off",
         "@typescript-eslint/camelcase": ["error", { "properties": "never" }],
         "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/no-use-before-define": "off",

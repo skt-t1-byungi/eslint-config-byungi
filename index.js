@@ -15,6 +15,7 @@ module.exports = {
         "no-cond-assign": "off",
         "no-case-declarations": "error",
         "no-sequences": "off",
+        "no-void": "off",
         "require-await": "error",
         "ava/no-only-test": "off",
         "ava/no-skip-test": "off",
