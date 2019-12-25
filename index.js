@@ -16,6 +16,7 @@ module.exports = {
         "no-case-declarations": "error",
         "no-sequences": "off",
         "no-void": "off",
+        "no-async-promise-executor" : "off",
         "require-await": "error",
         "ava/no-only-test": "off",
         "ava/no-skip-test": "off",
