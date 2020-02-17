@@ -8,7 +8,7 @@ module.exports = {
         ecmaVersion: 8,
         sourceType: "module"
     },
-    plugins: ["ava", "unicorn", "html"],
+    plugins: ["ava", "unicorn", "html", "simple-import-sort"],
     rules:{
         "strict": "off",
         "indent": ["error", 4],
@@ -24,6 +24,9 @@ module.exports = {
         "unicorn/throw-new-error": "error",
         "unicorn/custom-error-definition": "error",
         "unicorn/import-index": "error",
-        "unicorn/error-message": "error"
+        "unicorn/error-message": "error",
+        "sort-imports": "off",
+        "import/order": "off",
+        "simple-import-sort/sort": "error"
     }
 }
