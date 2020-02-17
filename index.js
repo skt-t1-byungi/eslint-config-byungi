@@ -27,6 +27,12 @@ module.exports = {
         "unicorn/error-message": "error",
         "sort-imports": "off",
         "import/order": "off",
-        "simple-import-sort/sort": "error"
+        "simple-import-sort/sort": ["error", {
+            groups: [
+                ["^react", "^@?\\w"],
+                ["^\\."],
+                ["^\\u0000"]
+            ]
+        }]
     }
 }
