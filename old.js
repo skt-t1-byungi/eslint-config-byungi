@@ -1,18 +1,18 @@
 module.exports = {
     extends: [
-        "standard",
+        'standard'
     ],
-    plugins: ["html"],
+    plugins: ['html'],
     parserOptions: {
-        "ecmaVersion": 5,
-        "sourceType": "script"
+        ecmaVersion: 5,
+        sourceType: 'script'
     },
     env: {
-        "browser": true,
-        "node": false,
-        "jquery": true
+        browser: true,
+        node: false,
+        jquery: true
     },
-    rules:{
-        "indent": ["error", 4]
+    rules: {
+        indent: ['error', 4]
     }
 }

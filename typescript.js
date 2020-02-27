@@ -1,23 +1,23 @@
 module.exports = {
-    parser: "@typescript-eslint/parser",
+    parser: '@typescript-eslint/parser',
     plugins: [
-        "@typescript-eslint"
+        '@typescript-eslint'
     ],
     extends: [
-        "./index.js",
-        "plugin:@typescript-eslint/eslint-recommended",
-        "plugin:@typescript-eslint/recommended"
+        './index.js',
+        'plugin:@typescript-eslint/eslint-recommended',
+        'plugin:@typescript-eslint/recommended'
     ],
     rules: {
-        "camelcase": "off",
-        "unicorn/custom-error-definition": "off",
-        "ava/no-ignored-test-files": ["error", {"extensions": ["ts"]}],
-        "@typescript-eslint/array-type": ["error", {"default": "array-simple"}],
-        "@typescript-eslint/camelcase": ["error", { "properties": "never" }],
-        "@typescript-eslint/explicit-function-return-type": "off",
-        "@typescript-eslint/no-use-before-define": "off",
-        "@typescript-eslint/no-explicit-any": "off",
-        "@typescript-eslint/no-empty-function": "off",
-        "@typescript-eslint/explicit-member-accessibility": ["error", { "accessibility": "no-public" }]
+        camelcase: 'off',
+        'unicorn/custom-error-definition': 'off',
+        'ava/no-ignored-test-files': ['error', { extensions: ['ts'] }],
+        '@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
+        '@typescript-eslint/camelcase': ['error', { properties: 'never' }],
+        '@typescript-eslint/explicit-function-return-type': 'off',
+        '@typescript-eslint/no-use-before-define': 'off',
+        '@typescript-eslint/no-explicit-any': 'off',
+        '@typescript-eslint/no-empty-function': 'off',
+        '@typescript-eslint/explicit-member-accessibility': ['error', { accessibility: 'no-public' }]
     }
 }

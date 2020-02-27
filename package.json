@@ -37,5 +37,12 @@
         "eslint-plugin-simple-import-sort": "^5.0.1",
         "eslint-plugin-standard": "^4.0.1",
         "eslint-plugin-unicorn": "^16.1.1"
+    },
+    "devDependencies": {
+        "eslint": "^6.8.0",
+        "eslint-config-byungi": "^0.8.1"
+    },
+    "eslintConfig": {
+        "extends": "byungi"
     }
 }
