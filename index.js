@@ -2,14 +2,13 @@ module.exports = {
     parser: 'babel-eslint',
     extends: [
         'standard',
-        'plugin:jest/recommended',
-        'babel'
+        'plugin:jest/recommended'
     ],
     parserOptions: {
         ecmaVersion: 8,
         sourceType: 'module'
     },
-    plugins: ['jest', 'unicorn', 'html', 'simple-import-sort'],
+    plugins: ['jest', 'unicorn', 'html', 'simple-import-sort', 'babel'],
     rules: {
         strict: 'off',
         indent: ['error', 4],
