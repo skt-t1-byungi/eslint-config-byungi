@@ -1,14 +1,13 @@
 module.exports = {
     parser: 'babel-eslint',
     extends: [
-        'standard',
-        'plugin:ava/recommended'
+        'standard'
     ],
     parserOptions: {
         ecmaVersion: 8,
         sourceType: 'module'
     },
-    plugins: ['ava', 'unicorn', 'html', 'simple-import-sort'],
+    plugins: ['unicorn', 'html', 'simple-import-sort'],
     rules: {
         strict: 'off',
         indent: ['error', 4],
@@ -18,8 +17,6 @@ module.exports = {
         'no-void': 'off',
         'no-async-promise-executor': 'off',
         'require-await': 'error',
-        'ava/no-only-test': 'off',
-        'ava/no-skip-test': 'off',
         'unicorn/explicit-length-check': 'error',
         'unicorn/throw-new-error': 'error',
         'unicorn/custom-error-definition': 'error',

@@ -11,7 +11,6 @@ module.exports = {
     rules: {
         camelcase: 'off',
         'unicorn/custom-error-definition': 'off',
-        'ava/no-ignored-test-files': ['error', { extensions: ['ts'] }],
         '@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
         '@typescript-eslint/camelcase': ['error', { properties: 'never' }],
         '@typescript-eslint/explicit-function-return-type': 'off',
