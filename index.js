@@ -33,6 +33,7 @@ module.exports = {
             ]
         }],
         'no-unused-expressions': 'off',
-        'babel/no-unused-expressions': 'error'
+        'babel/no-unused-expressions': 'error',
+        'jest/no-jasmine-globals': 'off'
     }
 }
