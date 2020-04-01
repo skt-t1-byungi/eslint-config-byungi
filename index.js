@@ -34,6 +34,8 @@ module.exports = {
         }],
         'no-unused-expressions': 'off',
         'babel/no-unused-expressions': 'error',
+        'promise/param-names': 'off',
         'jest/no-jasmine-globals': 'off'
+
     }
 }
