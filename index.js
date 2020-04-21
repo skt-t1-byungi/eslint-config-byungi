@@ -17,6 +17,7 @@ module.exports = {
         'no-sequences': 'off',
         'no-void': 'off',
         'no-async-promise-executor': 'off',
+        'no-labels':'off',
         'require-await': 'error',
         'unicorn/explicit-length-check': 'error',
         'unicorn/throw-new-error': 'error',
