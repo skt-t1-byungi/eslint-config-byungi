@@ -5,7 +5,7 @@ module.exports = {
         'plugin:jest/recommended'
     ],
     parserOptions: {
-        ecmaVersion: 8,
+        ecmaVersion: 11,
         sourceType: 'module'
     },
     plugins: ['jest', 'unicorn', 'html', 'simple-import-sort', 'babel'],
@@ -16,10 +16,8 @@ module.exports = {
         'no-case-declarations': 'error',
         'no-sequences': 'off',
         'no-void': 'off',
-        'no-async-promise-executor': 'off',
-        'no-labels':'off',
+        'no-labels': 'off',
         'require-await': 'error',
-        'unicorn/explicit-length-check': 'error',
         'unicorn/throw-new-error': 'error',
         'unicorn/custom-error-definition': 'error',
         'unicorn/import-index': 'error',
@@ -37,6 +35,5 @@ module.exports = {
         'babel/no-unused-expressions': 'error',
         'promise/param-names': 'off',
         'jest/no-jasmine-globals': 'off'
-
     }
 }
