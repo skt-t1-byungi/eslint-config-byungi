@@ -30,7 +30,7 @@
         "eslint-plugin-babel": "^5.3.1",
         "eslint-plugin-html": "^6.0.2",
         "eslint-plugin-import": "^2.22.0",
-        "eslint-plugin-jest": "^23.17.1",
+        "eslint-plugin-jest": "^23.18.0",
         "eslint-plugin-node": "^11.1.0",
         "eslint-plugin-promise": "^4.2.1",
         "eslint-plugin-react": "^7.20.3",
@@ -40,9 +40,9 @@
         "eslint-plugin-unicorn": "^20.1.0"
     },
     "devDependencies": {
-        "eslint": "^7.3.1",
-        "eslint-config-byungi": "^0.12.2",
-        "typescript": "^3.9.5"
+        "eslint": "^7.4.0",
+        "eslint-config-byungi": "^0.12.3",
+        "typescript": "^3.9.6"
     },
     "eslintConfig": {
         "extends": "byungi"
