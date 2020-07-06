@@ -23,7 +23,7 @@ module.exports = {
         '@typescript-eslint/explicit-member-accessibility': ['error', { accessibility: 'no-public' }],
         '@typescript-eslint/no-non-null-assertion': 'off',
         'no-extra-parens': 'off',
-        '@typescript-eslint/no-extra-parens': ['error'],
+        '@typescript-eslint/no-extra-parens': ['error', 'all', { nestedBinaryExpressions: false }],
         'brace-style': 'off',
         '@typescript-eslint/brace-style': ['error', '1tbs', { allowSingleLine: true }],
         'comma-spacing': 'off',
