@@ -2,13 +2,12 @@ module.exports = {
     parser: 'babel-eslint',
     extends: [
         'standard',
-        'plugin:jest/recommended'
     ],
     parserOptions: {
         ecmaVersion: 11,
         sourceType: 'module'
     },
-    plugins: ['jest', 'unicorn', 'html', 'simple-import-sort', 'babel'],
+    plugins: ['html', 'simple-import-sort', 'babel'],
     rules: {
         strict: 'off',
         indent: ['error', 4],
@@ -18,10 +17,6 @@ module.exports = {
         'no-void': 'off',
         'no-labels': 'off',
         'require-await': 'error',
-        'unicorn/throw-new-error': 'error',
-        'unicorn/custom-error-definition': 'error',
-        'unicorn/import-index': 'error',
-        'unicorn/error-message': 'error',
         'sort-imports': 'off',
         'import/order': 'off',
         'simple-import-sort/sort': ['error', {
@@ -34,6 +29,6 @@ module.exports = {
         'no-unused-expressions': 'off',
         'babel/no-unused-expressions': 'error',
         'promise/param-names': 'off',
-        'jest/no-jasmine-globals': 'off'
+        'no-use-before-define': 'off'
     }
 }
