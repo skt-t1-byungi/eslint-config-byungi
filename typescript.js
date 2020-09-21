@@ -49,6 +49,7 @@ module.exports = {
         semi: 'off',
         '@typescript-eslint/semi': ['error', 'never'],
         'space-before-function-paren': 'off',
-        '@typescript-eslint/space-before-function-paren': ['error', 'always']
+        '@typescript-eslint/space-before-function-paren': ['error', 'always'],
+        '@typescript-eslint/type-annotation-spacing': ['error', { before: false, after: false, overrides: { arrow: { before: true, after: true } } }]
     }
 }
