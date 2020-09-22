@@ -29,6 +29,7 @@ module.exports = {
         'no-unused-expressions': 'off',
         'babel/no-unused-expressions': 'error',
         'promise/param-names': 'off',
-        'no-use-before-define': 'off'
+        'no-use-before-define': 'off',
+        'no-return-assign': 'off'
     }
 }
